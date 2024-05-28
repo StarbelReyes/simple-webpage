@@ -1,0 +1,72 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 250px;
+    gap: 60px;
+    font-size: 3rem;
+    margin-left: 1.5%;
+}
+
+.nav button{
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease, text-decoration-line 0.3s ease;
+}
+
+
+.nav button:hover{
+    color: rgb(235, 185, 21);
+    text-decoration-line: underline;
+    transform: translateY(-2px);
+}
+
+body{
+    background:
+    linear-gradient(to right, black, rgba(0, 0, 0, 0.5)),
+    url('images/vecteezy_abstract-watercolor-texture-background_6791248.jpg');
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+#paragraph{
+    font-size: 1rem;
+    color: aquamarine;
+    width: 50%;
+    margin-left: 300px;
+    text-align: center;
+}
+
+#Qualifications{
+    font-size: 1rem;
+    color: rgb(244, 79, 2);
+    width: 50%;
+    margin-left: 450px;
+    text-align: center;
+
+}
+
+#Contact{
+    font-size: 1rem;
+    color: rgb(101, 42, 228);
+    width: 50%;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.home-image{
+    height: 500px;
+    width: 800px;
+    margin-left: 450px;
+    
+}
+
+.content{
+    height: 10px;
+}
